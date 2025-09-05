@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home">
+    <h2>Welcome!</h2>
+    <p>Hi, I’m <b>S.PAVITHRA</b>. >. I’m  currently persuving bachlor of computer application.</p>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a student BCA. I am provides foundational knowledge in areas like programming languages,
+      database management, web technologies, and computer networks
+
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-list">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Python</div>
+      <div class="skill">C Programming</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>HTML</h3>
+        <p>a text-based approach to describing how content 
+        contained within an HTML file is structured.</p>
+      </div>
+      <div class="project-card">
+        <h3>CSS</h3>
+        <p>a stylesheet language used to describe the presentation of a document 
+        written in HTML or XML.</p>
+      </div>
+      <div class="project-card">
+        <h3>JAVASCRIPT</h3>
+        <p>a scripting language that enables you to create dynamically updating content,
+         control multimedia, animate images, and pretty much everything else.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="S.PAVITHRA" required>
+      <input type="email" id="email" placeholder="pavisuresh022@gmail.com" required>
+      <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="response"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>pavisuresh022@gmail.com© 2025 My Portfolio | Designed by Me</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
