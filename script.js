@@ -7,4 +7,5 @@ document.getElementById("contactForm").addEventListener("submit", function(event
 
   response.innerText = `Thank you, ${name}! Your message has been sent successfully.`;
   this.reset();
+
 });
